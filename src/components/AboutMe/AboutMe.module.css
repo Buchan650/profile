@@ -1,0 +1,35 @@
+.h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: gold;
+}
+
+.p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    line-height: 2;
+    color: rgb(161, 161, 161);
+}
+
+.intro{
+    margin: 10rem auto;
+    width: 80%;
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+}
+.textcontainer{
+    width: 60%;
+    height: auto;
+    margin: 2rem;
+}
+
+.aboutme img{
+    width: 35%;
+    height: auto;
+    margin: 2rem;
+    border: 0.5rem solid rgb(161, 161, 161);
+    border-radius: 10%;
+}

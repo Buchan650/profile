@@ -1,0 +1,39 @@
+.h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: gold;
+}
+
+.p{
+    color: rgb(161, 161, 161)
+}
+
+.container{
+    display: flex;
+}
+
+.skills{
+    text-align: center;
+    width: 80%;
+    height:auto;
+    margin: 10rem auto;
+    scroll-margin-top: 8rem;
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills img{
+    width: 25rem;
+    height: auto;
+    margin: 1rem auto;
+}
+
+i{
+    color: gold;
+    font-size: 4rem;
+    margin: 3rem;
+}
