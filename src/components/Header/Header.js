@@ -12,7 +12,7 @@ function Header() {
                         <span><NavLink index className='links' id='about-me'>About me</NavLink ></span>
                         <span><NavLink  to="/skills" className='links' id='skills'>Skills</NavLink ></span>
                         <span><NavLink  to="/projects" className='links' id='projects'>Projects</NavLink ></span>
-                        <span><NavLink  to="/contact-info" className='links' id='contact'>Contact Information</NavLink ></span>
+                        <span><NavLink  to="/contact-info" className='links' id='contact'>Contact Info</NavLink ></span>
                     </div>
                 </div>
             </nav>
