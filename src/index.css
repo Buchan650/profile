@@ -97,7 +97,7 @@ p{
 }
 
 
-/*header*/
+/*Header*/
 
 .nav{
   position: fixed;
@@ -250,6 +250,10 @@ i{
       font-size: 4rem;
       margin: 2rem;
   }
+  .container{
+    flex-direction: column;
+  }
+
   .certificate{
       width: 90%;
       height: auto;

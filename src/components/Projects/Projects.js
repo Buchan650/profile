@@ -38,33 +38,33 @@ export default function Projects() {
             <div className='proj-container'>
                 <article className='proj'>
                         <p>GitHub Profile</p>
-                        <Link to="https://github.com/Buchan650" target="_blank"><img src={Github}/></Link>
+                        <Link to="https://github.com/Buchan650" target="_blank" alt='link to GitHub'><img src={Github} alt='gitHub site'/></Link>
                         
                 </article>
                 <article className='proj'>
                     <p>Portfolio Page</p>
-                    <Link to="https://buchan650.github.io/portfolio_project/" target="_blank"><img src={Portfolio}/></Link>
-                    <Link to="https://github.com/Buchan650/portfolio_project" target="_blank"><button className='button'><span>Repository  </span></button></Link>
+                    <Link to="https://buchan650.github.io/portfolio_project/" target="_blank" alt='link to portfolio page'><img src={Portfolio} alt='portfolio page'/></Link>
+                    <Link to="https://github.com/Buchan650/portfolio_project" target="_blank" alt='link to portfolio page repository' ><button className='button'><span>Repository  </span></button></Link>
                 </article>
                 <article className='proj'>
                     <p>Personal Page</p>
-                    <Link to="https://buchan650.github.io/" target="_blank"><img src={Personal}/></Link>
-                    <Link to="https://github.com/Buchan650/buchan650.github.io" target="_blank"><button className='button'><span>Repository  </span></button></Link>
+                    <Link to="https://buchan650.github.io/" target="_blank" alt='link to personal page'><img src={Personal} alt='personal page'/></Link>
+                    <Link to="https://github.com/Buchan650/buchan650.github.io" target="_blank" alt='link to personal page repository'><button className='button'><span>Repository  </span></button></Link>
                 </article>
                 <article className='proj'>
                     <p>Boxing Gym</p>
-                    <Link to="https://buchan650.github.io/boxing_studio/" target="_blank"><img src={Boxing}/></Link>
-                    <Link to="https://github.com/Buchan650/boxing_studio" target="_blank"><button className='button'><span>Repository  </span></button></Link>
+                    <Link to="https://buchan650.github.io/boxing_studio/" target="_blank" alt='link to boxing studio page'><img src={Boxing} alt='boxing studio page'/></Link>
+                    <Link to="https://github.com/Buchan650/boxing_studio" target="_blank" alt='link to boxing studio page repository'><button className='button'><span>Repository  </span></button></Link>
                 </article>
                 <article className='proj'>
                     <p>Jiu Jitsu Club</p>
-                    <Link to="https://buchan650.github.io/jiujitsu_club/" target="_blank"><img src={JiuJitsu}/></Link>
-                    <Link to="https://github.com/Buchan650/jiujitsu_club" target="_blank"><button className='button'><span>Repository  </span></button></Link>
+                    <Link to="https://buchan650.github.io/jiujitsu_club/" target="_blank" alt='link to jiu jitsu club page'><img src={JiuJitsu} alt='jiu jitsu club page'/></Link>
+                    <Link to="https://github.com/Buchan650/jiujitsu_club" target="_blank" alt='link to jiu jitsu club page repository'><button className='button'><span>Repository  </span></button></Link>
                 </article>
                 <article className='proj'>
                     <p>Art Store(Repository only)</p>
-                    <img src={ArtStore}/>
-                    <Link to="https://github.com/Buchan650/Dasmoto" target="_blank"><button className='button'><span>Repository  </span></button></Link>
+                    <img src={ArtStore} alt='art store page'/>
+                    <Link to="https://github.com/Buchan650/Dasmoto" target="_blank" alt='link to art store page repository'><button className='button'><span>Repository  </span></button></Link>
                 </article>
             </div>
         </div>
