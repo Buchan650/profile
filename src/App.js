@@ -6,6 +6,8 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Projects from './components/Projects/Projects';
 
+
+
 const router = createBrowserRouter(createRoutesFromElements( 
   <Route path="/" element={<Root />}>
     <Route index element={<AboutMe />} />
