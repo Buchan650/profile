@@ -17,14 +17,14 @@ function AboutMe() {
         １２年間英語の講師をしていましたが、現在はWEBデザイナーに転職しようと勉強中です。 
         僕が作ったこのサイトを見て下さり、ありがとうございます。このサイトは未完成で、
         今後新しい技術を身につける度に更新していくつもりです。</p>;
-    const englishInfo = <p>'Hello, everyone! My name is Breon Dante Curry, I am 39 years old 
+    const englishInfo = <p>Hello, everyone! My name is Breon Dante Curry, I am 39 years old 
         and I am an aspiring  web designer living in Gifu, Japan. I have 
         lived in Japan for almost 16 years, one year as an exchange student 
         at Hirosaki University and 15 as an English teacher. I’ve always 
         had a love for computers and as of March 2023, I decided to make a 
         career change and began learning  the necessary skills to become a 
         front-end engineer. My hobbies include Brazilian Jiu Jitsu, weight 
-        training, running, reading and of course coding.'</p>;
+        training, running, reading and of course coding.</p>;
     const [title, setTitle] = useState(english);
     const [introduction, setIntroduction] = useState(englishInfo);
 
