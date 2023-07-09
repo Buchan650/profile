@@ -5,8 +5,8 @@ function Footer() {
     const navigate = useNavigate();
     return (
     <footer>
-        <button onClick={() => navigate(-1)} className='footer-button'>Back</button>
-        <button onClick={() => navigate(1)} className='footer-button'>Forward</button>
+        <button onClick={() => navigate(-1)} className='footer-button'><i class="fas fa-chevron-left"></i></button>
+        <button onClick={() => navigate(1)} className='footer-button'><i class="fas fa-chevron-right"></i></button>
     </footer>
     )
 }

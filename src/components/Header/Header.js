@@ -10,13 +10,13 @@ function Header() {
     return (
         <header>
             <nav className='nav'>
-                <h1 id='name'>Breon <span className='last-name' id='lastname'>Curry</span></h1>
+                <NavLink className="h1" index><h1 id='name'>Breon <span className='last-name' id='lastname'>Curry</span></h1></NavLink>
                 <div className='navside'>
                     <div classsName='navbar-links'>
-                        <span><NavLink index className='links' id='about-me'>About me</NavLink ></span>
-                        <span><NavLink  to="/skills" className='links' id='skills'>Skills</NavLink ></span>
-                        <span><NavLink  to="/projects" className='links' id='projects'>Projects</NavLink ></span>
-                        <span><NavLink  to="/contact-info" className='links' id='contact'>Contact Info</NavLink ></span>
+                        <span><NavLink index className='links' >About me</NavLink ></span>
+                        <span><NavLink  to="/skills" className='links'>Skills</NavLink ></span>
+                        <span><NavLink  to="/projects" className='links'>Projects</NavLink ></span>
+                        <span><NavLink  to="/contact-info" className='links'>Contact Info</NavLink ></span>
                     </div>
                 </div>
                 <div className='dropdown'>

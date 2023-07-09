@@ -33,14 +33,35 @@ export default function Skills() {
         <h2>{title}{title === english ? <img className='flag' src={Japan} alt='Japanese flag' onClick={handleJapaneseClick}/> : <img className='flag' src={America} alt='American flag' onClick={handleEnglishClick}/>}</h2>
         {skills}
         <div className='container'>
-            <div className='languges'>
-                <i className="fa-brands fa-css3-alt"></i>
-                <i className="fa-brands fa-html5"></i>
-                <i className="fa-brands fa-square-js"></i>
-                <i className="fa-brands fa-git"></i>
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-brands fa-node"></i>
-                <i className="fa-brands fa-react"></i>
+            <div className='languages'>
+                <div className='language-container'>
+                    <i className="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div className='language-container'>
+                    <i className="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div className='language-container'>
+                    <i className="fa-brands fa-square-js"></i>
+                    <h3>JavaScript</h3>
+                </div >
+                <div className='language-container'>
+                    <i className="fa-brands fa-git"></i>
+                    <h3>Git</h3>
+                </div>
+                <div className='language-container'>
+                    <i className="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div className='language-container'>
+                    <i className="fa-brands fa-node"></i>
+                    <h3>Node</h3>
+                </div>
+                <div className='language-container'>
+                    <i className="fa-brands fa-react"></i>
+                    <h3>React</h3>  
+                </div>
             </div>
             <div>
               <img className='certificate' src={Certificate} alt='Codecademy Certificate'/>  
