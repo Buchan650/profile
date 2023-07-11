@@ -11,10 +11,9 @@ export default function Skills() {
     proficient in the tools necessary to become an effective web designer.
 </p>
     const japanese = 'スキル';
-    const japaneseSkills = <p>コードキャデミーを通して、
-        フロントエンジニアの資格を取ろうとしてるところです。
-        コードキャデミーのお陰で、下のWEBデザイナーになるために
-        技術を身につけました。</p>;
+    const japaneseSkills = <p>私は現在、Codecademyを通じて、フロントエンドエンジニアに
+        なるための資格取得に向けて取り組んでいます。Codecademyの助けを借りて、私は実用的な
+        ウェブデザイナーになるために必要なツールに熟達しました。</p>;
 
     const [title, setTitle] = useState(english);
     const [skills, setSkills] = useState(englishSkills);

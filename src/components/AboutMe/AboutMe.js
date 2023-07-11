@@ -9,14 +9,11 @@ import { useState } from 'react';
 function AboutMe() {
     const english = 'About Me';
     const japanese = '自己紹介';
-    const japaneseInfo = <p>皆さん、こんにちは。私の名前はカリーブリオンです。
-        生まれも育ちもカリフォルニアのデイリーシティー ですが、現在は家族５人（僕、妻、子供３人）
-        で岐阜県各務原市に住んでいます。 私が日本に来日してから１５年弱経ちました。
-        最初に日本に来たのは大学時代で、一年間交換留学生として弘前大学で勉強し、 
-        日本の事がとても気に入りました。アメリカの大学卒業後、英語の講師として再来日し、
-        １２年間英語の講師をしていましたが、現在はWEBデザイナーに転職しようと勉強中です。 
-        僕が作ったこのサイトを見て下さり、ありがとうございます。このサイトは未完成で、
-        今後新しい技術を身につける度に更新していくつもりです。</p>;
+    const japaneseInfo = <p>皆さん、こんにちは。私の名前はブリオン・ダンテ・カリー、39歳で、
+        日本の岐阜に住むウェブデザイナー志望者です。 私は弘前大学の交換留学生として1年、英語教師
+        として15年の合わせて16年近く日本に住んでいます。私は昔からコンピュータが大好きで、2023年
+        3月の時点で、転職を決意し、フロントエンドエンジニアになるために必要なスキルを学び始めました。
+        私の趣味はブラジリアン柔術、ウェイトトレーニング、ランニング、読書、そしてもちろんコーディングです。</p>;
     const englishInfo = <p>Hello, everyone! My name is Breon Dante Curry, I am 39 years old 
         and I am an aspiring  web designer living in Gifu, Japan. I have 
         lived in Japan for almost 16 years, one year as an exchange student 

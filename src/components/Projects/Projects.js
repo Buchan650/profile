@@ -12,8 +12,9 @@ import { useState } from 'react';
 
 export default function Projects() {
     const japanese = '作品';
-    const japaneseProjects = <p>自分のプログラミングレベルを見せる為に様々な
-        作品を制作しました。是非ご覧下さい。</p>;
+    const japaneseProjects = <p>私は、ウェブデザイナーとしての現在の技術を実証するため、
+        多くのプロジェクトを作成しました。見てください、そして、あなたが見たものに感心してくれる
+        と幸いです。</p>;
         const english = 'Projects';
         const englishProjects = <p>I have created a number of projects that I hope demonstrate my current 
         skill set as a web designer. Please, take a look and I hope you are 

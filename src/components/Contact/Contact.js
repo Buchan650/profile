@@ -9,8 +9,9 @@ function Contact() {
     comments(good or bad) about my content <br/>or just want to get in contact 
     with me, <br/> please feel free to contact me via email or through my GitHub.</p>
     const japanese = '連絡先';
-    const japanseContact = <p id='contact-message'>質問やコメント、ただ連絡が取りたい場合、
-    メール、電話、GitHub、どちらを使っても構いません。</p>;
+    const japanseContact = <p id='contact-message'>私のコンテンツについて質問、コメント
+    （良いコメントでも悪いコメントでも）がある場合、<br/>または単に私と連絡を取りたい際は、メールまた
+    はGitHubからお気軽にご連絡ください。</p>;
 
     const [title, setTitle] = useState(english);
     const [contact, setContact] = useState(englishContact);
