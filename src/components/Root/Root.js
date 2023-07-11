@@ -8,9 +8,9 @@ function Root() {
     return (
         <>
             <Header />
-                <main>
-                    <Outlet/>
-                </main>
+            <main>
+                <Outlet/>
+            </main>
         </>
         
     )
