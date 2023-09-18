@@ -1,7 +1,11 @@
 import React from 'react';
 import Certificate from './Certificate.png';
+import PHP from './php.png';
 import Japan from '../Japan-flag.png';
 import America from '../American-flag.png';
+import Photoshop from './photoshop_illustrator_cs6_icons.jpg';
+import PSCertificate from './ps.png';
+import IllCertificate from './ill.png';
 import { useState } from 'react';
 
 export default function Skills() {
@@ -46,6 +50,10 @@ export default function Skills() {
                     <h3>JavaScript</h3>
                 </div >
                 <div className='language-container'>
+                <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div className='language-container'>
                     <i className="fa-brands fa-git"></i>
                     <h3>Git</h3>
                 </div>
@@ -63,7 +71,20 @@ export default function Skills() {
                 </div>
             </div>
             <div>
-              <img className='certificate' src={Certificate} alt='Codecademy Certificate'/>  
+              <img className='certificate' src={Certificate} alt='Codecademy HTML, CSS Certificate'/> 
+              <img className='certificate' src={PHP} alt='Codecademy PHP Certificate'/> 
+            </div>
+        </div>
+        <div className='container2'>
+            <div className='dtp'>
+                <div className='dtp-container'>
+                    <img className='dtp-logo' src={Photoshop} alt='Photoshop logo'/>
+                    <h3>DTP (Photoshop & Illustrator)</h3>
+                </div>
+            </div>
+            <div>
+              <img className='certificate2' src={PSCertificate} alt='Skillshare Photoshop Certificate'/> 
+              <img className='certificate2' src={IllCertificate} alt='Skillshare Illustrator Certificate'/> 
             </div>
         </div>
     </div>

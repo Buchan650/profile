@@ -268,6 +268,32 @@ p{
   font-size: 6.5rem;
   margin: 1rem;
 }
+.container2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.dtp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dtp-container h3{
+  color: rgb(0, 0, 0);
+}
+
+.dtp-logo{
+  width: 33%;
+  height: auto;
+}
+
+.certificate2{
+  width: 25rem;
+  height: auto;
+  margin: 1rem;
+}
 
 @media only screen and (max-width : 820px){
   .skills{
@@ -376,6 +402,54 @@ p{
   right: 0;
 }
 
+.photoshop-images{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.photoshop-images h2{
+  text-align: center
+}
+
+.photoshop-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem auto;
+}
+
+.photopshop-portfolio img{
+  width: 30%;
+  height: auto;
+  margin: auto 1rem;
+}
+
+.illustrator-images{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.illustrator-images h2{
+  text-align: center
+}
+
+.illustrator-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem auto;
+}
+
+.illustrator-portfolio img{
+  width: 30%;
+  height: auto;
+  margin: auto 1rem;
+}
+
 @media only screen and (max-width : 820px){
   .projects{
       width: 80%;
@@ -387,6 +461,11 @@ p{
   .proj-container p{
       font-size: 1rem;
       }
+  .photopshop-portfolio img{
+      width: 80%;
+      height: auto;
+      margin: auto 1rem;
+  }
 }
 
 @media only screen and (max-width : 350px){
