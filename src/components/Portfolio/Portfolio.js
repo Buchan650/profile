@@ -67,8 +67,8 @@ export default function Porfolio() {
                 </article>
                 <article className='proj'>
                     <p>Portfolio Page(static)</p>
-                    <Link to="https://buchan650.github.io/portfolio_project/" target="_blank" alt='link to portfolio page'><img src={Portfolio} alt='portfolio page'/></Link>
-                    <Link to="https://github.com/Buchan650/portfolio_project" target="_blank" alt='link to portfolio page repository' ><button className='button'><span>Repository  </span></button></Link>
+                    <Link to="https://breoncurry-portfolio-site.netlify.app/" target="_blank" alt='link to portfolio page'><img src={Portfolio} alt='portfolio page'/></Link>
+                    <Link to="https://github.com/Buchan650/profile" target="_blank" alt='link to portfolio page repository' ><button className='button'><span>Repository  </span></button></Link>
                 </article>
                 <article className='proj'>
                     <p>Personal Page</p>
