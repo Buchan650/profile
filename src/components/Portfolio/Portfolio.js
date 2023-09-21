@@ -30,6 +30,17 @@ import Earbuds from './earbuds.jpg';
 import Love from './Love.jpg';
 import Sleeping from './Sleeping-fox.jpg';
 import Map from './Map-assignment.jpg';
+import Banner from './Banner.jpg';
+import Expert from './expert.jpg';
+import Level2 from './level 2.jpg';
+import Level3 from './Level-3(2).jpg';
+import MusicPlayer from './music-player.jpg';
+import NewYear from './new-year-animation2.gif';
+import Rainbow from './rainbow.jpg';
+import Standard from './standard.jpg';
+import Website1 from './web-site-1.jpg';
+import Website2 from './web-site-2.jpg';
+import Website3 from './website 3.jpg';
 import { useState } from 'react';
 
 export default function Porfolio() {
@@ -112,6 +123,17 @@ export default function Porfolio() {
                 <img src={Ship} alt='Ship in a bottle'></img>
                 <img src={Noah} alt='Liquified logo'></img>
                 <img src={Airforces} alt='Eurpean street'></img>
+                <img src={Expert} alt='Eurpean street'></img>
+                <img src={Level2} alt='Eurpean street'></img>
+                <img src={Level3} alt='Eurpean street'></img>
+                <img src={Rainbow} alt='Eurpean street'></img>
+                <img src={Standard} alt='Eurpean street'></img>
+                <img src={Website1} alt='Eurpean street'></img>
+                <img src={Website2} alt='Eurpean street'></img>
+                <img src={Website3} alt='Eurpean street'></img>
+                <img src={MusicPlayer} alt='Eurpean street'></img>
+                <img src={NewYear} alt='Eurpean street'></img>
+                <img src={Banner} alt='Eurpean street'></img>
             </div>
         </div>
         <div className='illustrator-images'>
