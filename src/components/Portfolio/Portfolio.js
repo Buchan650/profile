@@ -41,6 +41,15 @@ import Standard from './standard.jpg';
 import Website1 from './web-site-1.jpg';
 import Website2 from './web-site-2.jpg';
 import Website3 from './website 3.jpg';
+import ThreeD from './3D-shapes.png';
+import AppleMusic from './Apple-Music.png';
+import Apple from './Apple.png';
+import Awake from './Awake-fox.jpg';
+import CreditCard from './credit-card.png';
+import Duck from './duck.png';
+import Rings from './Rings.png';
+import Tire from './tire.png';
+
 import { useState } from 'react';
 
 export default function Porfolio() {
@@ -148,6 +157,14 @@ export default function Porfolio() {
                 <img src={CTB} alt='CTB logo'></img>
                 <img src={AsukaLogo} alt='Woman logo'></img>
                 <img src={Map} alt='Map of imaginary city'></img>
+                <img src={ThreeD} alt='Map of imaginary city'></img>
+                <img src={AppleMusic} alt='Map of imaginary city'></img>
+                <img src={Apple} alt='Map of imaginary city'></img>
+                <img src={Awake} alt='Map of imaginary city'></img>
+                <img src={CreditCard} alt='Map of imaginary city'></img>
+                <img src={Duck} alt='Map of imaginary city'></img>
+                <img src={Rings} alt='Map of imaginary city'></img>
+                <img src={Tire} alt='Map of imaginary city'></img>
             </div>
         </div>
     </div>
