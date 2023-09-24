@@ -131,18 +131,18 @@ export default function Porfolio() {
                 <img src={HalfTone} alt='Half tone wolf'></img>
                 <img src={Ship} alt='Ship in a bottle'></img>
                 <img src={Noah} alt='Liquified logo'></img>
-                <img src={Airforces} alt='Eurpean street'></img>
-                <img src={Expert} alt='Eurpean street'></img>
-                <img src={Level2} alt='Eurpean street'></img>
-                <img src={Level3} alt='Eurpean street'></img>
-                <img src={Rainbow} alt='Eurpean street'></img>
+                <img src={Airforces} alt='Air Force 1s ad'></img>
+                <img src={Expert} alt='Pizza shop site'></img>
+                <img src={Level2} alt='Golf course'></img>
+                <img src={Level3} alt='Dog frame'></img>
+                <img src={Rainbow} alt='Forest rainbow scene'></img>
                 <img src={Standard} alt='Eurpean street'></img>
-                <img src={Website1} alt='Eurpean street'></img>
-                <img src={Website2} alt='Eurpean street'></img>
-                <img src={Website3} alt='Eurpean street'></img>
-                <img src={MusicPlayer} alt='Eurpean street'></img>
-                <img src={NewYear} alt='Eurpean street'></img>
-                <img src={Banner} alt='Eurpean street'></img>
+                <img src={Website1} alt='Website template'></img>
+                <img src={Website2} alt='Website template'></img>
+                <img src={Website3} alt='Web template'></img>
+                <img src={MusicPlayer} alt='Music player'></img>
+                <img src={NewYear} alt='New Year banner'></img>
+                <img src={Banner} alt='Basketball banner'></img>
             </div>
         </div>
         <div className='illustrator-images'>
@@ -157,14 +157,14 @@ export default function Porfolio() {
                 <img src={CTB} alt='CTB logo'></img>
                 <img src={AsukaLogo} alt='Woman logo'></img>
                 <img src={Map} alt='Map of imaginary city'></img>
-                <img src={ThreeD} alt='Map of imaginary city'></img>
-                <img src={AppleMusic} alt='Map of imaginary city'></img>
-                <img src={Apple} alt='Map of imaginary city'></img>
-                <img src={Awake} alt='Map of imaginary city'></img>
-                <img src={CreditCard} alt='Map of imaginary city'></img>
-                <img src={Duck} alt='Map of imaginary city'></img>
-                <img src={Rings} alt='Map of imaginary city'></img>
-                <img src={Tire} alt='Map of imaginary city'></img>
+                <img src={ThreeD} alt='3D model'></img>
+                <img src={AppleMusic} alt='Itunes logo'></img>
+                <img src={Apple} alt='Apple drawing'></img>
+                <img src={Awake} alt='Fox drawing'></img>
+                <img src={CreditCard} alt='3D credit card'></img>
+                <img src={Duck} alt='Duck drawing'></img>
+                <img src={Rings} alt='3D rings'></img>
+                <img src={Tire} alt='Bike drawing'></img>
             </div>
         </div>
     </div>
